@@ -17,13 +17,6 @@ Module.register("MMM-CenterPusher", {
         wrapper.style.backgroundColor = this.config.backgroundColor;
         wrapper.style.marginLeft = this.config.marginLeft;
         wrapper.style.marginRight = this.config.marginRight;
-
-        // Add some visible content
-        var content = document.createElement("p");
-        content.style.color = "#0000";
-        content.innerText = "MMM-CenterPusher";
-        wrapper.appendChild(content);
-
         return wrapper;
     },
 });
