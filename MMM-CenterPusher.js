@@ -21,7 +21,7 @@ Module.register("MMM-CenterPusher", {
         // Add some visible content
         var content = document.createElement("p");
         content.style.color = "#FFFFFF";
-        content.innerText = "MMM-CenterPusher";
+        content.innerText = "";
         wrapper.appendChild(content);
 
         return wrapper;
