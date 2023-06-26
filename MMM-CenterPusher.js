@@ -2,8 +2,8 @@ Module.register("MMM-CenterPusher", {
     // Define module defaults
     defaults: {
         width: "50%",
-        height: "100%",
-        backgroundColor: "#000000",  // default to black
+        height: "100px",
+        backgroundColor: "#000000",
         marginLeft: "10%",
         marginRight: "10%"
     },
@@ -17,6 +17,13 @@ Module.register("MMM-CenterPusher", {
         wrapper.style.backgroundColor = this.config.backgroundColor;
         wrapper.style.marginLeft = this.config.marginLeft;
         wrapper.style.marginRight = this.config.marginRight;
+
+        // Add some visible content
+        var content = document.createElement("p");
+        content.style.color = "#FFFFFF";
+        content.innerText = "MMM-CenterPusher";
+        wrapper.appendChild(content);
+
         return wrapper;
     },
 });
