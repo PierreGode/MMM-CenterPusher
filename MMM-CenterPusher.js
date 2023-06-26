@@ -3,7 +3,7 @@ Module.register("MMM-CenterPusher", {
     defaults: {
         width: "50%",
         height: "100%",
-        backgroundColor: "#000000",
+        backgroundColor: "#000000",  // default to black
         marginLeft: "10%",
         marginRight: "10%"
     },
