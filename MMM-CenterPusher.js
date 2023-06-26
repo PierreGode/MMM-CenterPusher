@@ -1,8 +1,22 @@
 Module.register("MMM-CenterPusher", {
-    // Override dom generator.
+    // Define module defaults
+    defaults: {
+        width: "50%",
+        height: "100%",
+        backgroundColor: "#000000",
+        marginLeft: "10%",
+        marginRight: "10%"
+    },
+
+    // Override dom generator
     getDom: function() {
         var wrapper = document.createElement("div");
         wrapper.className = "center-pusher";
+        wrapper.style.width = this.config.width;
+        wrapper.style.height = this.config.height;
+        wrapper.style.backgroundColor = this.config.backgroundColor;
+        wrapper.style.marginLeft = this.config.marginLeft;
+        wrapper.style.marginRight = this.config.marginRight;
         return wrapper;
     },
 });
