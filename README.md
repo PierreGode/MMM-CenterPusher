@@ -1,5 +1,5 @@
 # MMM-CenterPusher
-
+```
 {
     module: 'MMM-CenterPusher',
     position: 'top_center'
