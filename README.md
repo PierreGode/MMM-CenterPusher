@@ -1,4 +1,9 @@
 # MMM-CenterPusher
+
+The idea it to create invisible boxes you can place out so you can push other modules to the sides.
+
+Not tested
+
 ```
 {
     module: 'MMM-CenterPusher',
