@@ -1,4 +1,6 @@
-.region.top.left,
-.region.top.right {
-    width: 20%;
+.center-pusher {
+    flex-grow: 1;
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
