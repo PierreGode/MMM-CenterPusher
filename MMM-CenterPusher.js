@@ -4,7 +4,8 @@ Module.register("MMM-CenterPusher", {
         width: "50%",
         height: "100px",
         marginLeft: "10%",
-        marginRight: "10%"
+        marginRight: "10%",
+        backgroundColor: "#008000" 
     },
 
     // Override dom generator
