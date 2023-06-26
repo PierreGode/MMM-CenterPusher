@@ -20,7 +20,7 @@ Module.register("MMM-CenterPusher", {
 
         // Add some visible content
         var content = document.createElement("p");
-        content.style.color = "#FFFFFF";
+        content.style.color = "#0000";
         content.innerText = "MMM-CenterPusher";
         wrapper.appendChild(content);
 
